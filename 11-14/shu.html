@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset=utf-8>
+    <meta name=description content="">
+    <meta name=viewport content="width=device-width, initial-scale=1">
+    <title>二级菜单</title>
+    <style type="text/css" media="screen">
+        .top{
+            height:50px;
+            background:teal;
+        }
+        .top ul{
+            width:1000px;
+            margin:0 auto;
+            height:50px;
+        }
+        .top ul li{
+            list-style:none;
+            float:left;
+        }
+        .top ul li a{
+            text-decoration:none;
+            float: left;
+            line-height:50px;
+            padding:0px 20px;
+            text-align:center;
+        }
+        .top ul li a:hover{
+            background:navy;  }
+        .top ul li div{
+            display:none;
+        }
+        .top ul li:hover div{
+            display:block;
+            position:absolute;
+            top:50px;
+        }
+    </style>
+</head>
+<body>
+ <div class="top">
+     <ul>
+         <li>
+         <a href="#">首页</a>
+            <div>
+                <a href="#">菜单</a>
+                <a href="#">菜单</a>
+                <a href="#">菜单</a>
+                <a href="#">菜单</a>
+            </div>
+         </li>
+         <li><a href="#">首页</a>
+            <div>
+                <a href="#"><img src="img/icon1.gif" alt=""></a>
+                <a href="#"><img src="img/icon1.gif" alt=""></a>
+                <a href="#"><img src="img/icon1.gif" alt=""></a>
+                <a href="#"><img src="img/icon1.gif" alt=""></a>
+            </div></li>
+         <li><a href="#">首页</a></li>
+         <li><a href="#">首页</a></li>
+     </ul>
+ </div>
+ <div class="ba">
+
+ </div>
+</body>
+</html>
